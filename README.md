@@ -10,10 +10,10 @@ scrapy+pyppeteer，爬取今日头条中新闻及热门评论信息。
 ## 部分结果展示
 
 新闻信息   
-![]()    
+![](https://github.com/cyhleo/JinRiTouTiaoNews/blob/master/image/news.png)    
 
 评论信息   
-![]()
+![](https://github.com/cyhleo/JinRiTouTiaoNews/blob/master/image/comments.png)
 
 ## 爬取思路
 
