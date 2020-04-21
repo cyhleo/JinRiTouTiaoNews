@@ -44,3 +44,7 @@ scrapy+pyppeteer，爬取今日头条中新闻及热门评论信息。
     编辑 item pipeline TimePipeline，将’time’字段由时间戳格式转换为"%Y-%m-%d %H:%M:%S"格式。
 
     采用item pipeline MongoDBPipeline，将ToutiaoCommentItem持久化到mongodb数据库。
+
+
+## 运行项目方法
+执行 toutiao_test\run.py 文件
