@@ -151,19 +151,6 @@ class ToutiaotestSpider(scrapy.Spider):
                     l = l.replace('\\u003C\\u002Fb\\u003E', '')
                     l = '小标题:' + l
 
-                if '\\u003C\\u002Fp\\u003E\\u003C' in l:
-                    l = l.replace('\\u003C\\u002Fp\\u003E\\u003C', '\n')
-                if '\\u003E' in l:
-                    l = l.replace('\\u003E', '\n')
-                if '\\u003C' in l:
-                    l = l.replace('\\u003C', '')
-                if '&amp;#34;' in l:
-                    l = l.replace('&amp;#34;', '')
-                if '\\u002Fstrong' in l:
-                    l = l.replace('\\u002Fstrong', '')
-                if 'strong' in l:
-                    l = l.replace('strong', '')
-
                 content_str = content_str + '\n' + l
         else:
             content_str = None
